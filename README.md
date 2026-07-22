@@ -7,16 +7,12 @@ A modern, responsive Islamic educational website built for **AlHuda Quran Academ
 # ✨ Features
 
 - 📱 Fully Responsive Design
-- 🌙 Light & Dark Mode
 - 📖 Modern Islamic UI
 - 🕌 Premium Hero Section
 - 📚 Quran Courses Section
 - 👨‍🏫 About Academy
 - ⭐ Student Testimonials
-- ❓ FAQ Section
 - 📞 Contact Form
-- 💬 WhatsApp Integration
-- 📍 Google Maps
 - 📧 Email Contact
 - 🔝 Scroll To Top Button
 - ⚡ Fast Loading
