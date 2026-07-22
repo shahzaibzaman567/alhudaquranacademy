@@ -64,11 +64,10 @@ Pakistan
 
 **Email**
 
-alhudaquranacademy@gmail.com
-
+alhudaquraninstitute13@gmail.com
 **Facebook**
 
-https://web.facebook.com/alhudaquranacademy13/
+https://web.facebook.com/alhudaquranacademy13
 
 ---
 
@@ -76,15 +75,10 @@ https://web.facebook.com/alhudaquranacademy13/
 
 All WhatsApp buttons connect directly to:
 
-https://wa.me/923119102462
++923119102462
 
 ---
 
-# 📧 Contact Form
-
-The contact form sends inquiries to:
-
-alhudaquranacademy@gmail.com
 
 ---
 
@@ -106,17 +100,6 @@ Modern Islamic design with smooth animations and professional UI.
 - Responsive Design
 - Modern UI Components
 
----
-
-# 🚀 Deployment
-
-The website can be deployed on:
-
-- Vercel
-- Netlify
-- GitHub Pages
-- Hostinger
-- cPanel Hosting
 
 ---
 
@@ -135,3 +118,5 @@ This project is created exclusively for **AlHuda Quran Academy**.
 Founder & Owner of AlHuda Quran Academy
 
 Dedicated to providing authentic Quran education with qualified teachers in a professional online learning environment.
+
+MADE BY SHAHZAIB ZAMAN DEVELOPER 
