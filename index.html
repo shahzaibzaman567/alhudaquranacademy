@@ -1230,9 +1230,6 @@ h1, h2, h3, h4, h5, h6 {
             <textarea name="Message" placeholder="Any specific requirements..."></textarea>
           </div>
           <button type="submit" class="submit-btn" id="formSubmitBtn">Submit & Get Free Trial</button>
-          <div style="text-align:center;margin-top:15px;">
-            <button type="button" id="testEmailBtn" style="background:none;border:1px solid var(--primary);color:var(--primary);padding:8px 20px;border-radius:50px;cursor:pointer;font-size:0.85rem;font-family:'Inter',sans-serif;">Send Test Email</button>
-          </div>
         </form>
       </div>
     </div>
@@ -1366,39 +1363,6 @@ document.addEventListener('DOMContentLoaded', function() {
     el.classList.add('hidden-init');
     observer.observe(el);
   });
-
-  // Test Email Button
-  var testBtn = document.getElementById('testEmailBtn');
-  if (testBtn) {
-    testBtn.addEventListener('click', function() {
-      var url = document.getElementById('gform').getAttribute('action');
-      if (url === 'YAHAN_APNA_NEW_WEB_APP_URL_DALEIN' || url === window.location.href || !url || url === '') {
-        showPopup('error', 'Pehle Web App URL set karein!');
-        return;
-      }
-      testBtn.disabled = true;
-      testBtn.innerText = 'Sending...';
-      var testData = new FormData();
-      testData.append('Full Name', 'Test User');
-      testData.append('Email Address', 'shahzaibzaman465@gmail.com');
-      testData.append('Phone Number', '+92 300 1234567');
-      testData.append('Course Interested In', 'Tajweed Rules');
-      testData.append('Message', 'This is a test email from AlHuda Quran Academy website.');
-      var xhr = new XMLHttpRequest();
-      xhr.open('POST', url, true);
-      xhr.onload = function() {
-        showPopup('success', 'Test email sent! Check shahzaibzaman465@gmail.com');
-        testBtn.disabled = false;
-        testBtn.innerText = 'Send Test Email';
-      };
-      xhr.onerror = function() {
-        showPopup('success', 'Test submitted successfully! Check your email.');
-        testBtn.disabled = false;
-        testBtn.innerText = 'Send Test Email';
-      };
-      xhr.send(testData);
-    });
-  }
 
   // Form
   var form = document.getElementById('gform');
